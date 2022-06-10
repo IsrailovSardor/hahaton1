@@ -1,0 +1,85 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/images/fon.jpg);
+    background-size: cover;
+}
+.navbar-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.navbar {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.logo {
+    display: flex;
+}
+.logo__img {
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1) {
+    stroke: #ffff;
+    animation-delay: -1;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #ffff;
+    animation-delay: -2s;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #BD0034;
+    animation-delay: -3s;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #0dff00;
+    animation-delay: -4s;
+}
+
+.text-copy:nth-child(5) {
+    stroke: #31fdfa;
+    animation-delay: -5s;
+}
+
+@keyframes stroke-offset {
+    100% {
+        stroke-dashoffset: -35%;
+    }
+}
+
+
