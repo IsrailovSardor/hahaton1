@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,42 +8,91 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <header>
         <div class="navbar-container">
-
-        <nav class="navbar">
-            <div class="logo">
-                <img src="./assets/images/logo.png" alt="" class="logo__img">
-                <p class="logo__text">Stellar</p>
-            </div>
-            <div class="menu">
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Pages</li>
-                    <li>Blog</li>
-                    <li>Contact Us</li>
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="./assets/images/logo.png" alt="" class="logo__img">
+                    <p class="logo__text">Stellar</p>
+                </div>
+                <ul class="menu__ul">
+                    <li class="menu__li">
+                        <a href="#" class="li__a">Home</a> </li>
+                    <li class="menu__li">
+                        <a href="#" class="li__a">About</a> </li>
+                    <li class="menu__li">
+                        <a href="#" class="li__a">Pages</a> </li>
+                    <li class="menu__li">
+                        <a href="#" class="li__a">Blog</a> </li>
+                    <li class="menu__li">
+                        <a href="#" class="li__a">Contact Us</a> </li>
                 </ul>
+                <div class="burgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <div class="container">
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">Stellar</text>
+                    </symbol>
+                    <g class="g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
             </div>
-        </nav>
-        <div class="container">
-            <svg viewBox="0 0 960 300">
-                <symbol id="s-text">
-                    <text text-anchor="middle" x="50%" y="80%">Stellar</text>
-                </symbol>
-                <g class="g-ants">
-                    <use xlink:href="#s-text" class="text-copy"></use>
-                    <use xlink:href="#s-text" class="text-copy"></use>
-                    <use xlink:href="#s-text" class="text-copy"></use>
-                    <use xlink:href="#s-text" class="text-copy"></use>
-                    <use xlink:href="#s-text" class="text-copy"></use>
-                </g>
-            </svg>
-        </div> </div>
+        </div>
     </header>
-
-
+    <section class="carousel">
+        <p class="carousel__text">Solar system planet</p>
+        <div class="items">
+            <div class="item active">
+                <p class="item_text">Neptun</p>
+                <img src="./assets/images/neptun.png" alt="">
+            </div>
+            <div class=" item next">
+                <p class="item_text">Uran</p>
+                <img src="./assets/images/uran.png" alt="">
+            </div>
+            <div class="item">
+                <p class="item_text">Saturn</p>
+                <img src="./assets/images/saturnt.png" alt="">
+            </div>
+            <div class="item">
+                <p class="item_text">Upiter</p>
+                <img src="./assets/images/upiter.png" alt="">
+            </div>
+            <div class="item">
+                <p class="item_text">Mars</p>
+                <img src="./assets/images/mars.png" alt="">
+            </div>
+            <div class="item">
+                <p class="item_text">Zemlya</p>
+                <img src="./assets/images/zeml.png" alt="">
+            </div>
+            <div class="item">
+                <p class="item_text">Vanera</p>
+                <img src="./assets/images/venera.png" alt="">
+            </div>
+            <div class="item prev">
+                <p class="item_text">Merkuriy</p>
+                <img src="./assets/images/merkur.png" alt="">
+            </div>
+            <div class="button-container">
+                <div class="button">P</div>
+                <div class="button">N</div>
+            </div>
+        </div>
+    </section>
     <script src="./index.js"></script>
 </body>
+
 </html>
