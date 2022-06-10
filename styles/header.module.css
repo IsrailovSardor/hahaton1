@@ -7,18 +7,13 @@ header {
     background-image: url(../assets/images/fon.jpg);
     background-size: cover;
 }
-.navbar-containers {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.69);
-}
 .navbar-container {
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
 }
 .navbar {
-    margin: auto;
-    max-width: 1200px;
+    width: 100%;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -218,4 +213,22 @@ svg {
         height: 40px;
         margin-right: 30px;
     }
+}
+
+
+
+footer {
+    width: 100%;
+    height: auto;
+}
+.evol__title2 {
+    text-shadow: 2px 0 2px rgb(0, 0, 0), 
+    0 2px 2px rgb(0, 0, 0), 
+    -2px 0 2px rgb(0, 0, 0), 
+    0 -2px 2px rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 0, 0);
 }
