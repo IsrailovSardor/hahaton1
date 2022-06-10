@@ -1,0 +1,125 @@
+.evolution {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/images/fon2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.evol-con {
+    margin: auto;
+    max-width: 1200px;
+}
+
+.evol__title {
+    text-shadow: 2px 0 2px rgb(0, 0, 0), 
+    0 2px 2px rgb(0, 0, 0), 
+    -2px 0 2px rgb(0, 0, 0), 
+    0 -2px 2px rgb(0, 0, 0);
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.evol__text {
+    
+    margin: 40px auto;
+    max-width: 700px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.block-evol {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.block_title {
+    background-color: rgb(0, 0, 0);
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+
+.block__img {
+    margin: auto;
+    width: 100%;
+    padding: 40px;
+}
+
+.block__title {
+    padding: 5px 5px;
+    position: absolute;
+    border-radius: 15px;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    opacity: 0;
+}
+
+.block_title:hover>.block__title {
+    opacity: 1;
+    transition: all 0.5s;
+    background-color: rgba(100, 100, 100, 0.481);
+}
+
+@media (max-width:700px) {
+    .evolution {
+        padding: 0 15px;
+
+    }
+
+    .evol__title {
+
+        font-weight: 500;
+        font-size: 40px;
+
+    }
+
+    .evol__text {
+        margin: 40px auto;
+        max-width: 700px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+
+}
+
+@media (max-width:450px) {
+    .evolution {
+        padding: 0 15px 40px 15px;
+    }
+
+    .evol__title {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .evol__text {
+        margin: 20px auto 40px;
+        max-width: 700px;
+        text-align: center;
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+}

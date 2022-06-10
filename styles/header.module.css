@@ -7,13 +7,18 @@ header {
     background-image: url(../assets/images/fon.jpg);
     background-size: cover;
 }
+.navbar-containers {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.69);
+}
 .navbar-container {
     max-width: 1200px;
     padding: 0 20px;
     margin: auto;
 }
 .navbar {
-    width: 100%;
+    margin: auto;
+    max-width: 1200px;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -50,6 +55,15 @@ header {
     font-family: 'Poppins', sans-serif;
     color: white;
     text-decoration: none;
+}
+.li__a:hover {
+   
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 0 1px rgb(255, 255, 255), 
+    0 1px 1px rgb(255, 255, 255), 
+    -1px 0 1px rgb(255, 255, 255), 
+    0 -1px 1px rgb(255, 255, 255);
+    transition: 0.5s all;
 }
 .burgerMenu {
     display: none;

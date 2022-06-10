@@ -1,7 +1,11 @@
 @import url(./styles/header.module.css);
 @import url(./styles/carousel.css);
+@import url(./styles/evol.module.css);
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
 }

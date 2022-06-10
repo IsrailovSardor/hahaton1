@@ -10,32 +10,31 @@
 </head>
 
 <body>
+    <div class="navbar-containers">
+   <nav class="navbar">
+        <div class="logo">
+            <img src="./assets/images/logo.png" alt="" class="logo__img">
+            <p class="logo__text">Stellar</p>
+        </div>
+        <ul class="menu__ul">
+            <li class="menu__li">
+                <a href="#" class="li__a">Home</a> </li>
+            <li class="menu__li">
+                <a href="#system" class="li__a">System plan</a> </li>
+            <li class="menu__li">
+                <a href="#plans" class="li__a">Planet</a> </li>
+        </ul>
+        <div class="burgerMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    </div>
+ 
     <header>
         <div class="navbar-container">
-            <nav class="navbar">
-                <div class="logo">
-                    <img src="./assets/images/logo.png" alt="" class="logo__img">
-                    <p class="logo__text">Stellar</p>
-                </div>
-                <ul class="menu__ul">
-                    <li class="menu__li">
-                        <a href="#" class="li__a">Home</a> </li>
-                    <li class="menu__li">
-                        <a href="#" class="li__a">About</a> </li>
-                    <li class="menu__li">
-                        <a href="#" class="li__a">Pages</a> </li>
-                    <li class="menu__li">
-                        <a href="#" class="li__a">Blog</a> </li>
-                    <li class="menu__li">
-                        <a href="#" class="li__a">Contact Us</a> </li>
-                </ul>
-                <div class="burgerMenu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </nav>
-            <div class="container">
+            <div class="container" >
                 <svg viewBox="0 0 960 300">
                     <symbol id="s-text">
                         <text text-anchor="middle" x="50%" y="80%">Stellar</text>
@@ -51,7 +50,7 @@
             </div>
         </div>
     </header>
-    <section class="carousel">
+    <section class="carousel" id="system">
         <p class="carousel__text">Solar system planet</p>
         <div class="items">
             <div class="item active">
@@ -89,6 +88,46 @@
             <div class="button-container">
                 <div class="button">P</div>
                 <div class="button">N</div>
+            </div>
+        </div>
+    </section>
+    <section class="evolution" id="plans">
+        <div class="evol-con">
+            <p class="evol__title">Evolution is more than just a template</p>
+            <p class="evol__text">With this pre-made website, you get a built-in CMS, a great set of user-friendly tools, free updates, 24/7 professional customer support and many other goodies.</p>
+            <div class="block-evol">
+                <div class="block_title">
+                    <img src="./assets/images/neptun.png" alt="" class="block__img"> 
+                    <p class="block__title">Непту́н — восьмая и самая дальняя от Солнца планета Солнечной системы. Его масса превышает массу Земли в 17,2 раза и является третьей среди планет Солнечной системы, а по экваториальному диаметру Нептун занимает четвёртое место, превосходя Землю в 3,9 раза. Планета названа в честь Нептуна — римского бога</p>
+                </div>
+                <div class="block_title">
+                    <img src="./assets/images/mars.png" alt="" class="block__img"> 
+                    <p class="block__title">Марс — четвёртая по удалённости от Солнца и седьмая по размеру планета Солнечной системы; масса планеты составляет 10,7 % массы Земли. Названа в честь Марса — древнеримского бога войны, соответствующего древнегреческому</p>
+                </div>
+                <div class="block_title">
+                    <img src="./assets/images/uran.png" alt="" class="block__img"> 
+                    <p class="block__title">Ура́н — планета Солнечной системы, седьмая по удалённости от Солнца, третья по диаметру и четвёртая по массе. Была открыта в 1781 году английским астрономом Уильямом Гершелем и названа в честь греческого бога неба Урана. Уран стал первой планетой, обнаруженной в Новое время и при помощи телескопа.</p>
+                </div>
+                <div class="block_title">
+                    <img src="./assets/images/saturnt.png" alt="" class="block__img"> 
+                    <p class="block__title">Сату́рн — шестая планета по удалённости от Солнца и вторая по размерам планета в Солнечной системе после Юпитера. Сатурн, а также Юпитер, Уран и Нептун, классифицируются как газовые планеты-гиганты. Сатурн назван в честь римского бога земледелия. Символ Сатурна</p>
+                </div>
+                <div class="block_title">
+                    <img src="./assets/images/upiter.png" alt="" class="block__img"> 
+                    <p class="block__title">Юпи́тер — крупнейшая планета Солнечной системы, пятая по удалённости от Солнца. Наряду с Сатурном, Ураном и Нептуном, Юпитер классифицируется как газовый гигант. </p>
+                </div>
+                <div class="block_title">
+                    <img src="./assets/images/merkur.png" alt="" class="block__img"> 
+                    <p class="block__title">Мерку́рий — ближайшая к Солнцу планета Солнечной системы, наименьшая из планет земной группы. Названа в честь древнеримского бога торговли — быстрого Меркурия, поскольку она движется по небу быстрее других планет.</p>
+                </div>
+                 <div class="block_title">
+                    <img src="./assets/images/zeml.png" alt="" class="block__img"> 
+                    <p class="block__title">Земля́ — третья по удалённости от Солнца планета Солнечной системы. Самая плотная, пятая по диаметру и массе среди всех планет и крупнейшая среди планет земной группы, в которую входят также Меркурий, Венера и Марс. Единственное известное человеку в настоящее время тело во Вселенной, населённое живыми организмами.</p>
+                </div>
+                 <div class="block_title">
+                    <img src="./assets/images/venera.png" alt="" class="block__img"> 
+                    <p class="block__title">Вене́ра — вторая по удалённости от Солнца и шестая по размеру планета Солнечной системы, наряду с Меркурием, Землёй и Марсом принадлежащая к семейству планет земной группы. Названа в честь древнеримской богини любви Венеры. По ряду характеристик — например, по массе и размерам — Венера считается «сестрой» Земли.</p>
+                </div>
             </div>
         </div>
     </section>
